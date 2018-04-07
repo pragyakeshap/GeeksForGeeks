@@ -51,7 +51,7 @@ public class AddLinkedList {
 	}
 }
 
-class LinkedList {
+/*class LinkedList {
 
 	Node head;
 
@@ -85,7 +85,7 @@ class LinkedList {
 			}
 		}
 	}
-}
+}*/
 
 class Node {
 
