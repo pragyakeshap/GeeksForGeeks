@@ -50,5 +50,20 @@ public class RemovDupFromLL {
 		return unique;
 		
 	}
+	
+public static LinkedList removeDupWithoutBuffer(LinkedList ll) {	   
+		Node prev = ll.head;
+		Node curr = prev.next;
+		while(curr !=null) {
+		Node runner = prev;
+		if(runner.data == curr.data) {
+			prev.next = curr;
+		}else {
+			curr = curr.next;
+			prev = prev.next;
+		}
+		return ll;
+		
+	}
 
 }

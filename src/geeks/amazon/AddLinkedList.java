@@ -46,7 +46,6 @@ public class AddLinkedList {
 			
 			
 		}		
-
 		return result;
 	}
 }
